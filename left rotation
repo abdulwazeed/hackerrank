@@ -1,0 +1,4 @@
+def solve(a, d):
+ return(a[d:]+a[:d])
+
+print(*solve(a,d), sep=' ') 
